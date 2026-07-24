@@ -1,0 +1,42 @@
+{
+  "name": "x-guest-api-client",
+  "version": "1.0.0",
+  "description": "Acquire and manage Twitter/X guest tokens to query public tweets without monthly subscription fees.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "utility",
+    "x-guest-api-client",
+    "twitter",
+    "x-api",
+    "guest-token",
+    "scraper",
+    "free-api"
+  ],
+  "author": "Antigravity Factory Manager",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeHalogen/x-guest-api-client.git"
+  },
+  "homepage": "https://github.com/MeHalogen/x-guest-api-client#readme"
+}
